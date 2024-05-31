@@ -3,7 +3,7 @@
   $.fn.menumaker = function(options) {
       
       var cssmenu = $(this), settings = $.extend({
-        title: "Welcome",
+      
         format: "dropdown",
         breakpoint: 768,
         sticky: false
@@ -12,7 +12,7 @@
       return this.each(function() {
         cssmenu.find('li ul').parent().addClass('has-sub');
         if (settings.format != 'select') {
-          cssmenu.prepend('<div id="menu-button">' + settings.title + '</div>');
+          cssmenu.prepend('<div id="menu-button">' + 'Welcome' + '</div>');
           $(this).find("#menu-button").on('click', function(){
             $(this).toggleClass('menu-opened');
             var mainmenu = $(this).next('ul');
