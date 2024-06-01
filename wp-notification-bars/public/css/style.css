@@ -3764,7 +3764,7 @@ ul {
   z-index: 9999999;
 }
 .status {
-  background-image: url(../images/logo.png);
+  background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgi882dnPignMrzxTEL_iT9VHTN_2Wzk9N-V_8_hP0PzFzn33kehuC-A4_6y_QUhm0f7PUsXdJYc276m3KEYx-bZ2ddst9T9CmeOKIAZcvw-AIQSMtAuSh3j_cqwaVBGaaZyM41bG_h7Ev3BZhSiokhdf_VnkrZV3lM8-F1xJp_Lcs9XEsKLfnyWYVnkwnX/w53-h53/logo-removebg-preview.png');
   animation: fade 5s;
  -webkit-animation: fade 5s;
  -moz-animation: fade 5s;
