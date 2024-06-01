@@ -48,7 +48,7 @@
         {
           cssmenu.append('<select style="width: 100%"/>').addClass('select-list');
           var selectList = cssmenu.find('select');
-          selectList.append('<option>' + settings.title + '</option>', {
+          selectList.append('<option>' + 'Welcome' + '</option>', {
                                                          "selected": "selected",
                                                          "value": ""});
           cssmenu.find('a').each(function() {
